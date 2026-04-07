@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Arsip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <span class="menu-btn" onclick="toggleMenu()">☰</span>
+    <h2>Arsip & Publikasi</h2>
+</header>
+
+<div id="overlay" onclick="toggleMenu()"></div>
+
+<aside id="sidebar">
+    <span class="close-btn" onclick="toggleMenu()">×</span>
+    <a href="index.html">Beranda</a>
+    <a href="berita.html">Berita</a>
+    <a href="virtual-tour.html">Virtual Tour Museum</a>
+    <a href="virtual-site.html">Virtual Site</a>
+    <a href="budaya.html">Budaya</a>
+    <a href="pengelola.html">Pengelola Museum</a>
+    <a href="pengunjung.html">Pengunjung</a>
+    <a href="model3d.html">3D Model (Ver. Beta)</a>
+    <a href="arsip.html">Arsip & Publikasi</a>
+</aside>
+
+<main class="content">
+    <h1>Arsip & Publikasi</h1>
+    <p>Kumpulan data, laporan, dan hasil penelitian arkeologi.</p>
+    
+    <section class="archive-section">
+        <h2>Laporan Penelitian</h2>
+        <ul class="archive-list">
+            <li><a href="#">Laporan Arkeologi 2023</a></li>
+            <li><a href="#">Dokumentasi Artefak</a></li>
+            <li><a href="#">Analisis Stratigrafi</a></li>
+        </ul>
+    </section>
+    
+    <section class="archive-section">
+        <h2>Publikasi</h2>
+        <ul class="archive-list">
+            <li><a href="#">Jurnal Penelitian Vol. 1</a></li>
+            <li><a href="#">Buku Katalog Museum</a></li>
+            <li><a href="#">Makalah Konferensi</a></li>
+        </ul>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
